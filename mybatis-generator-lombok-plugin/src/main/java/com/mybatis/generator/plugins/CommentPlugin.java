@@ -57,9 +57,6 @@ public class CommentPlugin extends PluginAdapter {
             element.addJavaDocLine(" *");
         }
 
-        element.addJavaDocLine(" * Table:     " + introspectedTable.getFullyQualifiedTable());
-        element.addJavaDocLine(" * Column:    " + introspectedColumn.getActualColumnName());
-        element.addJavaDocLine(" * Nullable:  " + introspectedColumn.isNullable());
         element.addJavaDocLine(" */");
     }
 
